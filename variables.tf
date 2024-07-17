@@ -7,8 +7,3 @@ variable "location" {
   description = "value of the location"
   type = string
 }
-
-variable tags {
-  description = "value of the tags"
-  type = map(string)
-}
